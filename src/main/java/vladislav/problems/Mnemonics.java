@@ -1,6 +1,5 @@
 package vladislav.problems;
 
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 class Mnemonics {
@@ -11,6 +10,9 @@ class Mnemonics {
 //        return string.toString();
 
         // variant 2: speed 74ms - 90ms for mnemonics.md
-        return stream.map(s -> s.replaceAll("&[^\\s;]+;", replacement)).reduce((s1, s2) -> s1 + s2).get();
+//        return stream.map(s -> s.replaceAll("&[^\\s;]+;", replacement)).reduce((s1, s2) -> s1. + s2).get();
+
+        // variant 3: speed 29 - 39ms for mnemonics.md
+        return stream.map(s -> s.replaceAll("&[a-zA-Z]+;", replacement)).reduce(String::concat).get();
     }
 }
