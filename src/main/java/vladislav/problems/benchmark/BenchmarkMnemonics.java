@@ -12,7 +12,7 @@ import java.util.stream.Stream;
 
 import static java.util.concurrent.TimeUnit.MILLISECONDS;
 
-@BenchmarkMode(Mode.Throughput)
+@BenchmarkMode({Mode.AverageTime, Mode.Throughput})
 @State(Scope.Benchmark)
 @OutputTimeUnit(MILLISECONDS)
 @Warmup(iterations = 5, time = 1000, timeUnit = MILLISECONDS)
