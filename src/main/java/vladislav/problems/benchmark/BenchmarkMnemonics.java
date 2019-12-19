@@ -62,6 +62,31 @@ public class BenchmarkMnemonics {
         bh.consume(Mnemonics.replace5(createData(), "\"\n"));
     }
 
+    @Benchmark
+    public void replace6(Blackhole bh) {
+        bh.consume(Mnemonics.replace6(createData(), "\"\n"));
+    }
+
+    @Benchmark
+    public void replace7(Blackhole bh) {
+        bh.consume(Mnemonics.replace7(createData(), "\"\n"));
+    }
+
+    @Benchmark
+    public void replace8(Blackhole bh) {
+        bh.consume(Mnemonics.replace8(createData(), "\"\n"));
+    }
+
+    @Benchmark
+    public void replace9(Blackhole bh) {
+        bh.consume(Mnemonics.replace9(createData(), "\"\n"));
+    }
+
+    @Benchmark
+    public void replace10(Blackhole bh) {
+        bh.consume(Mnemonics.replace10(createData(), "\"\n"));
+    }
+
     private Stream<String> createData() {
         Stream.Builder<String> stream;
         stream = Stream.<String>builder();
