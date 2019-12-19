@@ -13,47 +13,47 @@
 # Benchmark: vladislav.problems.benchmark.BenchmarkMnemonics.replace
 # Parameters: (N = 10)
 
-# Run progress: 0,00% complete, ETA 00:03:00
+# Run progress: 0,00% complete, ETA 00:11:00
 # Fork: 1 of 2
-# Warmup Iteration   1: 16,122 ops/ms
-# Warmup Iteration   2: 56,687 ops/ms
-# Warmup Iteration   3: 87,387 ops/ms
-# Warmup Iteration   4: 86,524 ops/ms
-# Warmup Iteration   5: 88,070 ops/ms
-Iteration   1: 85,562 ops/ms
-Iteration   2: 89,186 ops/ms
-Iteration   3: 88,516 ops/ms
-Iteration   4: 88,853 ops/ms
-Iteration   5: 88,826 ops/ms
-Iteration   6: 89,314 ops/ms
-Iteration   7: 88,953 ops/ms
-Iteration   8: 90,157 ops/ms
-Iteration   9: 89,745 ops/ms
-Iteration  10: 90,801 ops/ms
+# Warmup Iteration   1: 14,597 ops/ms
+# Warmup Iteration   2: 61,913 ops/ms
+# Warmup Iteration   3: 90,651 ops/ms
+# Warmup Iteration   4: 93,691 ops/ms
+# Warmup Iteration   5: 92,697 ops/ms
+Iteration   1: 94,529 ops/ms
+Iteration   2: 97,389 ops/ms
+Iteration   3: 97,120 ops/ms
+Iteration   4: 97,705 ops/ms
+Iteration   5: 96,852 ops/ms
+Iteration   6: 96,877 ops/ms
+Iteration   7: 96,097 ops/ms
+Iteration   8: 97,342 ops/ms
+Iteration   9: 98,142 ops/ms
+Iteration  10: 99,345 ops/ms
 
-# Run progress: 8,33% complete, ETA 00:02:51
+# Run progress: 2,27% complete, ETA 00:11:11
 # Fork: 2 of 2
-# Warmup Iteration   1: 28,221 ops/ms
-# Warmup Iteration   2: 70,149 ops/ms
-# Warmup Iteration   3: 89,749 ops/ms
-# Warmup Iteration   4: 88,925 ops/ms
-# Warmup Iteration   5: 90,290 ops/ms
-Iteration   1: 88,824 ops/ms
-Iteration   2: 92,357 ops/ms
-Iteration   3: 89,216 ops/ms
-Iteration   4: 91,737 ops/ms
-Iteration   5: 91,348 ops/ms
-Iteration   6: 90,779 ops/ms
-Iteration   7: 93,020 ops/ms
-Iteration   8: 92,710 ops/ms
-Iteration   9: 93,348 ops/ms
-Iteration  10: 91,786 ops/ms
+# Warmup Iteration   1: 33,257 ops/ms
+# Warmup Iteration   2: 72,257 ops/ms
+# Warmup Iteration   3: 89,981 ops/ms
+# Warmup Iteration   4: 88,227 ops/ms
+# Warmup Iteration   5: 89,228 ops/ms
+Iteration   1: 88,477 ops/ms
+Iteration   2: 91,155 ops/ms
+Iteration   3: 89,730 ops/ms
+Iteration   4: 91,776 ops/ms
+Iteration   5: 90,896 ops/ms
+Iteration   6: 92,612 ops/ms
+Iteration   7: 91,265 ops/ms
+Iteration   8: 91,983 ops/ms
+Iteration   9: 92,906 ops/ms
+Iteration  10: 88,700 ops/ms
 
 
 Result "vladislav.problems.benchmark.BenchmarkMnemonics.replace":
-  90,252 ±(99.9%) 1,668 ops/ms [Average]
-  (min, avg, max) = (85,562, 90,252, 93,348), stdev = 1,921
-  CI (99.9%): [88,584, 91,920] (assumes normal distribution)
+  94,045 ±(99.9%) 3,002 ops/ms [Average]
+  (min, avg, max) = (88,477, 94,045, 99,345), stdev = 3,457
+  CI (99.9%): [91,043, 97,047] (assumes normal distribution)
 
 
 # JMH version: 1.21
@@ -68,47 +68,102 @@ Result "vladislav.problems.benchmark.BenchmarkMnemonics.replace":
 # Benchmark: vladislav.problems.benchmark.BenchmarkMnemonics.replace1
 # Parameters: (N = 10)
 
-# Run progress: 16,67% complete, ETA 00:02:34
+# Run progress: 4,55% complete, ETA 00:10:50
 # Fork: 1 of 2
-# Warmup Iteration   1: 30,061 ops/ms
-# Warmup Iteration   2: 74,478 ops/ms
-# Warmup Iteration   3: 95,778 ops/ms
-# Warmup Iteration   4: 95,094 ops/ms
-# Warmup Iteration   5: 95,148 ops/ms
-Iteration   1: 95,673 ops/ms
-Iteration   2: 96,434 ops/ms
-Iteration   3: 99,582 ops/ms
-Iteration   4: 97,074 ops/ms
-Iteration   5: 99,826 ops/ms
-Iteration   6: 98,885 ops/ms
-Iteration   7: 99,809 ops/ms
-Iteration   8: 99,755 ops/ms
-Iteration   9: 99,233 ops/ms
-Iteration  10: 99,878 ops/ms
+# Warmup Iteration   1: 31,488 ops/ms
+# Warmup Iteration   2: 73,720 ops/ms
+# Warmup Iteration   3: 93,219 ops/ms
+# Warmup Iteration   4: 90,550 ops/ms
+# Warmup Iteration   5: 93,147 ops/ms
+Iteration   1: 91,563 ops/ms
+Iteration   2: 94,790 ops/ms
+Iteration   3: 94,134 ops/ms
+Iteration   4: 93,997 ops/ms
+Iteration   5: 93,686 ops/ms
+Iteration   6: 94,860 ops/ms
+Iteration   7: 96,484 ops/ms
+Iteration   8: 95,426 ops/ms
+Iteration   9: 97,797 ops/ms
+Iteration  10: 94,877 ops/ms
 
-# Run progress: 25,00% complete, ETA 00:02:19
+# Run progress: 6,82% complete, ETA 00:10:34
 # Fork: 2 of 2
-# Warmup Iteration   1: 35,650 ops/ms
-# Warmup Iteration   2: 75,715 ops/ms
-# Warmup Iteration   3: 94,551 ops/ms
-# Warmup Iteration   4: 96,137 ops/ms
-# Warmup Iteration   5: 93,609 ops/ms
-Iteration   1: 100,376 ops/ms
-Iteration   2: 96,338 ops/ms
-Iteration   3: 93,812 ops/ms
-Iteration   4: 100,263 ops/ms
-Iteration   5: 99,075 ops/ms
-Iteration   6: 98,407 ops/ms
-Iteration   7: 101,014 ops/ms
-Iteration   8: 99,047 ops/ms
-Iteration   9: 98,470 ops/ms
-Iteration  10: 99,209 ops/ms
+# Warmup Iteration   1: 35,855 ops/ms
+# Warmup Iteration   2: 78,503 ops/ms
+# Warmup Iteration   3: 93,584 ops/ms
+# Warmup Iteration   4: 96,486 ops/ms
+# Warmup Iteration   5: 91,370 ops/ms
+Iteration   1: 96,380 ops/ms
+Iteration   2: 96,991 ops/ms
+Iteration   3: 93,341 ops/ms
+Iteration   4: 94,332 ops/ms
+Iteration   5: 94,905 ops/ms
+Iteration   6: 97,911 ops/ms
+Iteration   7: 99,178 ops/ms
+Iteration   8: 97,546 ops/ms
+Iteration   9: 96,393 ops/ms
+Iteration  10: 96,109 ops/ms
 
 
 Result "vladislav.problems.benchmark.BenchmarkMnemonics.replace1":
-  98,608 ±(99.9%) 1,589 ops/ms [Average]
-  (min, avg, max) = (93,812, 98,608, 101,014), stdev = 1,830
-  CI (99.9%): [97,019, 100,197] (assumes normal distribution)
+  95,535 ±(99.9%) 1,600 ops/ms [Average]
+  (min, avg, max) = (91,563, 95,535, 99,178), stdev = 1,843
+  CI (99.9%): [93,935, 97,135] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.4, OpenJDK 64-Bit Server VM, 11.0.4+11-post-Ubuntu-1ubuntu218.04.3
+# VM invoker: /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 1000 ms each
+# Measurement: 10 iterations, 1000 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: vladislav.problems.benchmark.BenchmarkMnemonics.replace10
+# Parameters: (N = 10)
+
+# Run progress: 9,09% complete, ETA 00:10:17
+# Fork: 1 of 2
+# Warmup Iteration   1: 11,176 ops/ms
+# Warmup Iteration   2: 30,189 ops/ms
+# Warmup Iteration   3: 30,636 ops/ms
+# Warmup Iteration   4: 32,605 ops/ms
+# Warmup Iteration   5: 35,317 ops/ms
+Iteration   1: 35,339 ops/ms
+Iteration   2: 35,850 ops/ms
+Iteration   3: 35,707 ops/ms
+Iteration   4: 33,410 ops/ms
+Iteration   5: 34,723 ops/ms
+Iteration   6: 35,481 ops/ms
+Iteration   7: 33,726 ops/ms
+Iteration   8: 35,065 ops/ms
+Iteration   9: 35,824 ops/ms
+Iteration  10: 34,358 ops/ms
+
+# Run progress: 11,36% complete, ETA 00:10:01
+# Fork: 2 of 2
+# Warmup Iteration   1: 11,214 ops/ms
+# Warmup Iteration   2: 29,501 ops/ms
+# Warmup Iteration   3: 30,283 ops/ms
+# Warmup Iteration   4: 32,557 ops/ms
+# Warmup Iteration   5: 35,837 ops/ms
+Iteration   1: 35,612 ops/ms
+Iteration   2: 36,192 ops/ms
+Iteration   3: 35,038 ops/ms
+Iteration   4: 33,598 ops/ms
+Iteration   5: 35,234 ops/ms
+Iteration   6: 35,021 ops/ms
+Iteration   7: 33,429 ops/ms
+Iteration   8: 35,696 ops/ms
+Iteration   9: 35,961 ops/ms
+Iteration  10: 35,850 ops/ms
+
+
+Result "vladislav.problems.benchmark.BenchmarkMnemonics.replace10":
+  35,056 ±(99.9%) 0,778 ops/ms [Average]
+  (min, avg, max) = (33,410, 35,056, 36,192), stdev = 0,896
+  CI (99.9%): [34,278, 35,833] (assumes normal distribution)
 
 
 # JMH version: 1.21
@@ -123,47 +178,47 @@ Result "vladislav.problems.benchmark.BenchmarkMnemonics.replace1":
 # Benchmark: vladislav.problems.benchmark.BenchmarkMnemonics.replace2
 # Parameters: (N = 10)
 
-# Run progress: 33,33% complete, ETA 00:02:03
+# Run progress: 13,64% complete, ETA 00:09:46
 # Fork: 1 of 2
-# Warmup Iteration   1: 31,206 ops/ms
-# Warmup Iteration   2: 74,485 ops/ms
-# Warmup Iteration   3: 92,910 ops/ms
-# Warmup Iteration   4: 92,828 ops/ms
-# Warmup Iteration   5: 89,986 ops/ms
-Iteration   1: 96,349 ops/ms
-Iteration   2: 95,218 ops/ms
-Iteration   3: 95,893 ops/ms
-Iteration   4: 96,441 ops/ms
-Iteration   5: 95,084 ops/ms
-Iteration   6: 95,830 ops/ms
-Iteration   7: 97,151 ops/ms
-Iteration   8: 95,746 ops/ms
-Iteration   9: 95,459 ops/ms
-Iteration  10: 95,514 ops/ms
+# Warmup Iteration   1: 32,877 ops/ms
+# Warmup Iteration   2: 78,467 ops/ms
+# Warmup Iteration   3: 94,410 ops/ms
+# Warmup Iteration   4: 94,267 ops/ms
+# Warmup Iteration   5: 89,499 ops/ms
+Iteration   1: 96,351 ops/ms
+Iteration   2: 98,248 ops/ms
+Iteration   3: 97,113 ops/ms
+Iteration   4: 97,278 ops/ms
+Iteration   5: 95,215 ops/ms
+Iteration   6: 97,868 ops/ms
+Iteration   7: 96,932 ops/ms
+Iteration   8: 97,042 ops/ms
+Iteration   9: 97,483 ops/ms
+Iteration  10: 97,716 ops/ms
 
-# Run progress: 41,67% complete, ETA 00:01:47
+# Run progress: 15,91% complete, ETA 00:09:30
 # Fork: 2 of 2
-# Warmup Iteration   1: 29,031 ops/ms
-# Warmup Iteration   2: 72,069 ops/ms
-# Warmup Iteration   3: 91,976 ops/ms
-# Warmup Iteration   4: 91,478 ops/ms
-# Warmup Iteration   5: 89,352 ops/ms
-Iteration   1: 92,628 ops/ms
-Iteration   2: 90,391 ops/ms
-Iteration   3: 94,355 ops/ms
-Iteration   4: 92,937 ops/ms
-Iteration   5: 91,744 ops/ms
-Iteration   6: 94,157 ops/ms
-Iteration   7: 93,947 ops/ms
-Iteration   8: 95,145 ops/ms
-Iteration   9: 94,770 ops/ms
-Iteration  10: 93,414 ops/ms
+# Warmup Iteration   1: 29,416 ops/ms
+# Warmup Iteration   2: 73,999 ops/ms
+# Warmup Iteration   3: 92,440 ops/ms
+# Warmup Iteration   4: 94,282 ops/ms
+# Warmup Iteration   5: 90,971 ops/ms
+Iteration   1: 94,337 ops/ms
+Iteration   2: 94,339 ops/ms
+Iteration   3: 97,045 ops/ms
+Iteration   4: 96,072 ops/ms
+Iteration   5: 94,446 ops/ms
+Iteration   6: 95,924 ops/ms
+Iteration   7: 96,687 ops/ms
+Iteration   8: 94,049 ops/ms
+Iteration   9: 94,351 ops/ms
+Iteration  10: 94,249 ops/ms
 
 
 Result "vladislav.problems.benchmark.BenchmarkMnemonics.replace2":
-  94,609 ±(99.9%) 1,472 ops/ms [Average]
-  (min, avg, max) = (90,391, 94,609, 97,151), stdev = 1,695
-  CI (99.9%): [93,137, 96,080] (assumes normal distribution)
+  96,137 ±(99.9%) 1,228 ops/ms [Average]
+  (min, avg, max) = (94,049, 96,137, 98,248), stdev = 1,414
+  CI (99.9%): [94,910, 97,365] (assumes normal distribution)
 
 
 # JMH version: 1.21
@@ -178,47 +233,47 @@ Result "vladislav.problems.benchmark.BenchmarkMnemonics.replace2":
 # Benchmark: vladislav.problems.benchmark.BenchmarkMnemonics.replace3
 # Parameters: (N = 10)
 
-# Run progress: 50,00% complete, ETA 00:01:32
+# Run progress: 18,18% complete, ETA 00:09:15
 # Fork: 1 of 2
-# Warmup Iteration   1: 32,331 ops/ms
-# Warmup Iteration   2: 70,121 ops/ms
-# Warmup Iteration   3: 85,656 ops/ms
-# Warmup Iteration   4: 85,403 ops/ms
-# Warmup Iteration   5: 85,537 ops/ms
-Iteration   1: 87,269 ops/ms
-Iteration   2: 86,751 ops/ms
-Iteration   3: 87,446 ops/ms
-Iteration   4: 88,148 ops/ms
-Iteration   5: 88,244 ops/ms
-Iteration   6: 86,177 ops/ms
-Iteration   7: 89,858 ops/ms
-Iteration   8: 89,054 ops/ms
-Iteration   9: 90,681 ops/ms
-Iteration  10: 89,895 ops/ms
+# Warmup Iteration   1: 34,658 ops/ms
+# Warmup Iteration   2: 78,016 ops/ms
+# Warmup Iteration   3: 92,634 ops/ms
+# Warmup Iteration   4: 93,442 ops/ms
+# Warmup Iteration   5: 88,740 ops/ms
+Iteration   1: 94,290 ops/ms
+Iteration   2: 93,183 ops/ms
+Iteration   3: 93,426 ops/ms
+Iteration   4: 94,695 ops/ms
+Iteration   5: 93,187 ops/ms
+Iteration   6: 94,318 ops/ms
+Iteration   7: 94,527 ops/ms
+Iteration   8: 94,778 ops/ms
+Iteration   9: 95,332 ops/ms
+Iteration  10: 96,551 ops/ms
 
-# Run progress: 58,33% complete, ETA 00:01:16
+# Run progress: 20,45% complete, ETA 00:08:59
 # Fork: 2 of 2
-# Warmup Iteration   1: 29,463 ops/ms
-# Warmup Iteration   2: 71,713 ops/ms
-# Warmup Iteration   3: 90,521 ops/ms
-# Warmup Iteration   4: 87,432 ops/ms
-# Warmup Iteration   5: 91,228 ops/ms
-Iteration   1: 89,149 ops/ms
-Iteration   2: 91,830 ops/ms
-Iteration   3: 90,719 ops/ms
-Iteration   4: 91,963 ops/ms
-Iteration   5: 90,695 ops/ms
-Iteration   6: 91,553 ops/ms
-Iteration   7: 90,750 ops/ms
-Iteration   8: 91,361 ops/ms
-Iteration   9: 91,358 ops/ms
-Iteration  10: 92,306 ops/ms
+# Warmup Iteration   1: 30,115 ops/ms
+# Warmup Iteration   2: 73,957 ops/ms
+# Warmup Iteration   3: 95,840 ops/ms
+# Warmup Iteration   4: 92,328 ops/ms
+# Warmup Iteration   5: 91,831 ops/ms
+Iteration   1: 96,634 ops/ms
+Iteration   2: 94,757 ops/ms
+Iteration   3: 96,103 ops/ms
+Iteration   4: 93,895 ops/ms
+Iteration   5: 95,767 ops/ms
+Iteration   6: 93,455 ops/ms
+Iteration   7: 96,350 ops/ms
+Iteration   8: 97,662 ops/ms
+Iteration   9: 96,739 ops/ms
+Iteration  10: 95,253 ops/ms
 
 
 Result "vladislav.problems.benchmark.BenchmarkMnemonics.replace3":
-  89,760 ±(99.9%) 1,628 ops/ms [Average]
-  (min, avg, max) = (86,177, 89,760, 92,306), stdev = 1,875
-  CI (99.9%): [88,132, 91,389] (assumes normal distribution)
+  95,045 ±(99.9%) 1,145 ops/ms [Average]
+  (min, avg, max) = (93,183, 95,045, 97,662), stdev = 1,318
+  CI (99.9%): [93,900, 96,190] (assumes normal distribution)
 
 
 # JMH version: 1.21
@@ -233,47 +288,47 @@ Result "vladislav.problems.benchmark.BenchmarkMnemonics.replace3":
 # Benchmark: vladislav.problems.benchmark.BenchmarkMnemonics.replace4
 # Parameters: (N = 10)
 
-# Run progress: 66,67% complete, ETA 00:01:01
+# Run progress: 22,73% complete, ETA 00:08:44
 # Fork: 1 of 2
-# Warmup Iteration   1: 31,066 ops/ms
-# Warmup Iteration   2: 71,391 ops/ms
-# Warmup Iteration   3: 89,167 ops/ms
-# Warmup Iteration   4: 87,548 ops/ms
-# Warmup Iteration   5: 88,584 ops/ms
-Iteration   1: 90,622 ops/ms
-Iteration   2: 93,635 ops/ms
-Iteration   3: 92,287 ops/ms
-Iteration   4: 92,491 ops/ms
-Iteration   5: 90,760 ops/ms
-Iteration   6: 93,235 ops/ms
-Iteration   7: 93,300 ops/ms
-Iteration   8: 93,038 ops/ms
-Iteration   9: 93,170 ops/ms
-Iteration  10: 92,832 ops/ms
+# Warmup Iteration   1: 28,191 ops/ms
+# Warmup Iteration   2: 71,587 ops/ms
+# Warmup Iteration   3: 92,634 ops/ms
+# Warmup Iteration   4: 91,433 ops/ms
+# Warmup Iteration   5: 92,907 ops/ms
+Iteration   1: 90,993 ops/ms
+Iteration   2: 93,923 ops/ms
+Iteration   3: 94,877 ops/ms
+Iteration   4: 95,655 ops/ms
+Iteration   5: 94,848 ops/ms
+Iteration   6: 95,397 ops/ms
+Iteration   7: 94,687 ops/ms
+Iteration   8: 94,996 ops/ms
+Iteration   9: 96,079 ops/ms
+Iteration  10: 94,508 ops/ms
 
-# Run progress: 75,00% complete, ETA 00:00:46
+# Run progress: 25,00% complete, ETA 00:08:28
 # Fork: 2 of 2
-# Warmup Iteration   1: 29,994 ops/ms
-# Warmup Iteration   2: 71,789 ops/ms
-# Warmup Iteration   3: 89,264 ops/ms
-# Warmup Iteration   4: 88,158 ops/ms
-# Warmup Iteration   5: 89,159 ops/ms
-Iteration   1: 86,981 ops/ms
-Iteration   2: 92,398 ops/ms
-Iteration   3: 91,860 ops/ms
-Iteration   4: 93,103 ops/ms
-Iteration   5: 91,343 ops/ms
-Iteration   6: 92,140 ops/ms
-Iteration   7: 91,720 ops/ms
-Iteration   8: 90,789 ops/ms
-Iteration   9: 88,306 ops/ms
-Iteration  10: 92,605 ops/ms
+# Warmup Iteration   1: 33,518 ops/ms
+# Warmup Iteration   2: 76,891 ops/ms
+# Warmup Iteration   3: 93,925 ops/ms
+# Warmup Iteration   4: 94,793 ops/ms
+# Warmup Iteration   5: 89,145 ops/ms
+Iteration   1: 94,850 ops/ms
+Iteration   2: 94,514 ops/ms
+Iteration   3: 95,149 ops/ms
+Iteration   4: 95,272 ops/ms
+Iteration   5: 93,690 ops/ms
+Iteration   6: 96,502 ops/ms
+Iteration   7: 96,329 ops/ms
+Iteration   8: 95,668 ops/ms
+Iteration   9: 96,663 ops/ms
+Iteration  10: 97,351 ops/ms
 
 
 Result "vladislav.problems.benchmark.BenchmarkMnemonics.replace4":
-  91,831 ±(99.9%) 1,475 ops/ms [Average]
-  (min, avg, max) = (86,981, 91,831, 93,635), stdev = 1,698
-  CI (99.9%): [90,356, 93,306] (assumes normal distribution)
+  95,098 ±(99.9%) 1,161 ops/ms [Average]
+  (min, avg, max) = (90,993, 95,098, 97,351), stdev = 1,337
+  CI (99.9%): [93,936, 96,259] (assumes normal distribution)
 
 
 # JMH version: 1.21
@@ -288,50 +343,875 @@ Result "vladislav.problems.benchmark.BenchmarkMnemonics.replace4":
 # Benchmark: vladislav.problems.benchmark.BenchmarkMnemonics.replace5
 # Parameters: (N = 10)
 
-# Run progress: 83,33% complete, ETA 00:00:30
+# Run progress: 27,27% complete, ETA 00:08:12
 # Fork: 1 of 2
-# Warmup Iteration   1: 26,089 ops/ms
-# Warmup Iteration   2: 69,019 ops/ms
-# Warmup Iteration   3: 90,658 ops/ms
-# Warmup Iteration   4: 89,678 ops/ms
-# Warmup Iteration   5: 90,117 ops/ms
-Iteration   1: 87,842 ops/ms
-Iteration   2: 92,164 ops/ms
-Iteration   3: 92,428 ops/ms
-Iteration   4: 92,379 ops/ms
-Iteration   5: 92,279 ops/ms
-Iteration   6: 92,898 ops/ms
-Iteration   7: 92,999 ops/ms
-Iteration   8: 93,359 ops/ms
-Iteration   9: 93,608 ops/ms
-Iteration  10: 93,506 ops/ms
+# Warmup Iteration   1: 30,071 ops/ms
+# Warmup Iteration   2: 75,222 ops/ms
+# Warmup Iteration   3: 94,811 ops/ms
+# Warmup Iteration   4: 92,589 ops/ms
+# Warmup Iteration   5: 91,361 ops/ms
+Iteration   1: 97,056 ops/ms
+Iteration   2: 95,496 ops/ms
+Iteration   3: 96,760 ops/ms
+Iteration   4: 96,040 ops/ms
+Iteration   5: 96,926 ops/ms
+Iteration   6: 94,348 ops/ms
+Iteration   7: 94,934 ops/ms
+Iteration   8: 97,271 ops/ms
+Iteration   9: 97,834 ops/ms
+Iteration  10: 98,534 ops/ms
 
-# Run progress: 91,67% complete, ETA 00:00:15
+# Run progress: 29,55% complete, ETA 00:07:57
 # Fork: 2 of 2
-# Warmup Iteration   1: 28,283 ops/ms
-# Warmup Iteration   2: 73,926 ops/ms
-# Warmup Iteration   3: 94,371 ops/ms
-# Warmup Iteration   4: 92,276 ops/ms
-# Warmup Iteration   5: 93,430 ops/ms
-Iteration   1: 92,444 ops/ms
-Iteration   2: 94,811 ops/ms
-Iteration   3: 96,062 ops/ms
-Iteration   4: 95,087 ops/ms
-Iteration   5: 94,271 ops/ms
-Iteration   6: 93,541 ops/ms
-Iteration   7: 94,906 ops/ms
-Iteration   8: 93,894 ops/ms
-Iteration   9: 97,150 ops/ms
-Iteration  10: 95,500 ops/ms
+# Warmup Iteration   1: 29,258 ops/ms
+# Warmup Iteration   2: 74,670 ops/ms
+# Warmup Iteration   3: 96,455 ops/ms
+# Warmup Iteration   4: 95,732 ops/ms
+# Warmup Iteration   5: 93,543 ops/ms
+Iteration   1: 99,097 ops/ms
+Iteration   2: 97,967 ops/ms
+Iteration   3: 98,236 ops/ms
+Iteration   4: 98,683 ops/ms
+Iteration   5: 98,951 ops/ms
+Iteration   6: 98,940 ops/ms
+Iteration   7: 100,015 ops/ms
+Iteration   8: 98,769 ops/ms
+Iteration   9: 99,066 ops/ms
+Iteration  10: 100,313 ops/ms
 
 
 Result "vladislav.problems.benchmark.BenchmarkMnemonics.replace5":
-  93,557 ±(99.9%) 1,670 ops/ms [Average]
-  (min, avg, max) = (87,842, 93,557, 97,150), stdev = 1,923
-  CI (99.9%): [91,887, 95,226] (assumes normal distribution)
+  97,762 ±(99.9%) 1,420 ops/ms [Average]
+  (min, avg, max) = (94,348, 97,762, 100,313), stdev = 1,635
+  CI (99.9%): [96,342, 99,182] (assumes normal distribution)
 
 
-# Run complete. Total time: 00:03:04
+# JMH version: 1.21
+# VM version: JDK 11.0.4, OpenJDK 64-Bit Server VM, 11.0.4+11-post-Ubuntu-1ubuntu218.04.3
+# VM invoker: /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 1000 ms each
+# Measurement: 10 iterations, 1000 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: vladislav.problems.benchmark.BenchmarkMnemonics.replace6
+# Parameters: (N = 10)
+
+# Run progress: 31,82% complete, ETA 00:07:42
+# Fork: 1 of 2
+# Warmup Iteration   1: 27,399 ops/ms
+# Warmup Iteration   2: 73,690 ops/ms
+# Warmup Iteration   3: 94,737 ops/ms
+# Warmup Iteration   4: 92,675 ops/ms
+# Warmup Iteration   5: 92,145 ops/ms
+Iteration   1: 93,106 ops/ms
+Iteration   2: 94,320 ops/ms
+Iteration   3: 95,988 ops/ms
+Iteration   4: 96,371 ops/ms
+Iteration   5: 94,840 ops/ms
+Iteration   6: 94,880 ops/ms
+Iteration   7: 97,718 ops/ms
+Iteration   8: 96,650 ops/ms
+Iteration   9: 96,533 ops/ms
+Iteration  10: 97,574 ops/ms
+
+# Run progress: 34,09% complete, ETA 00:07:26
+# Fork: 2 of 2
+# Warmup Iteration   1: 31,927 ops/ms
+# Warmup Iteration   2: 74,272 ops/ms
+# Warmup Iteration   3: 89,864 ops/ms
+# Warmup Iteration   4: 89,236 ops/ms
+# Warmup Iteration   5: 91,509 ops/ms
+Iteration   1: 91,469 ops/ms
+Iteration   2: 94,762 ops/ms
+Iteration   3: 93,620 ops/ms
+Iteration   4: 95,152 ops/ms
+Iteration   5: 93,000 ops/ms
+Iteration   6: 94,530 ops/ms
+Iteration   7: 95,548 ops/ms
+Iteration   8: 94,956 ops/ms
+Iteration   9: 94,970 ops/ms
+Iteration  10: 96,733 ops/ms
+
+
+Result "vladislav.problems.benchmark.BenchmarkMnemonics.replace6":
+  95,136 ±(99.9%) 1,375 ops/ms [Average]
+  (min, avg, max) = (91,469, 95,136, 97,718), stdev = 1,583
+  CI (99.9%): [93,761, 96,511] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.4, OpenJDK 64-Bit Server VM, 11.0.4+11-post-Ubuntu-1ubuntu218.04.3
+# VM invoker: /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 1000 ms each
+# Measurement: 10 iterations, 1000 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: vladislav.problems.benchmark.BenchmarkMnemonics.replace7
+# Parameters: (N = 10)
+
+# Run progress: 36,36% complete, ETA 00:07:11
+# Fork: 1 of 2
+# Warmup Iteration   1: 11,989 ops/ms
+# Warmup Iteration   2: 28,450 ops/ms
+# Warmup Iteration   3: 33,761 ops/ms
+# Warmup Iteration   4: 34,684 ops/ms
+# Warmup Iteration   5: 31,394 ops/ms
+Iteration   1: 35,788 ops/ms
+Iteration   2: 33,694 ops/ms
+Iteration   3: 35,222 ops/ms
+Iteration   4: 35,651 ops/ms
+Iteration   5: 35,330 ops/ms
+Iteration   6: 35,105 ops/ms
+Iteration   7: 34,091 ops/ms
+Iteration   8: 31,312 ops/ms
+Iteration   9: 34,499 ops/ms
+Iteration  10: 35,727 ops/ms
+
+# Run progress: 38,64% complete, ETA 00:06:55
+# Fork: 2 of 2
+# Warmup Iteration   1: 13,926 ops/ms
+# Warmup Iteration   2: 25,962 ops/ms
+# Warmup Iteration   3: 33,945 ops/ms
+# Warmup Iteration   4: 33,377 ops/ms
+# Warmup Iteration   5: 32,768 ops/ms
+Iteration   1: 34,268 ops/ms
+Iteration   2: 33,627 ops/ms
+Iteration   3: 34,191 ops/ms
+Iteration   4: 33,488 ops/ms
+Iteration   5: 32,867 ops/ms
+Iteration   6: 34,494 ops/ms
+Iteration   7: 35,150 ops/ms
+Iteration   8: 34,892 ops/ms
+Iteration   9: 35,338 ops/ms
+Iteration  10: 35,163 ops/ms
+
+
+Result "vladislav.problems.benchmark.BenchmarkMnemonics.replace7":
+  34,495 ±(99.9%) 0,963 ops/ms [Average]
+  (min, avg, max) = (31,312, 34,495, 35,788), stdev = 1,109
+  CI (99.9%): [33,532, 35,458] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.4, OpenJDK 64-Bit Server VM, 11.0.4+11-post-Ubuntu-1ubuntu218.04.3
+# VM invoker: /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 1000 ms each
+# Measurement: 10 iterations, 1000 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: vladislav.problems.benchmark.BenchmarkMnemonics.replace8
+# Parameters: (N = 10)
+
+# Run progress: 40,91% complete, ETA 00:06:40
+# Fork: 1 of 2
+# Warmup Iteration   1: 10,317 ops/ms
+# Warmup Iteration   2: 24,288 ops/ms
+# Warmup Iteration   3: 32,660 ops/ms
+# Warmup Iteration   4: 31,337 ops/ms
+# Warmup Iteration   5: 30,352 ops/ms
+Iteration   1: 33,008 ops/ms
+Iteration   2: 32,283 ops/ms
+Iteration   3: 32,536 ops/ms
+Iteration   4: 31,862 ops/ms
+Iteration   5: 31,581 ops/ms
+Iteration   6: 32,566 ops/ms
+Iteration   7: 31,569 ops/ms
+Iteration   8: 32,771 ops/ms
+Iteration   9: 32,752 ops/ms
+Iteration  10: 32,612 ops/ms
+
+# Run progress: 43,18% complete, ETA 00:06:24
+# Fork: 2 of 2
+# Warmup Iteration   1: 9,678 ops/ms
+# Warmup Iteration   2: 18,985 ops/ms
+# Warmup Iteration   3: 28,211 ops/ms
+# Warmup Iteration   4: 27,252 ops/ms
+# Warmup Iteration   5: 28,533 ops/ms
+Iteration   1: 29,363 ops/ms
+Iteration   2: 30,185 ops/ms
+Iteration   3: 30,317 ops/ms
+Iteration   4: 31,777 ops/ms
+Iteration   5: 32,062 ops/ms
+Iteration   6: 31,405 ops/ms
+Iteration   7: 30,352 ops/ms
+Iteration   8: 32,155 ops/ms
+Iteration   9: 32,819 ops/ms
+Iteration  10: 32,382 ops/ms
+
+
+Result "vladislav.problems.benchmark.BenchmarkMnemonics.replace8":
+  31,818 ±(99.9%) 0,891 ops/ms [Average]
+  (min, avg, max) = (29,363, 31,818, 33,008), stdev = 1,026
+  CI (99.9%): [30,927, 32,709] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.4, OpenJDK 64-Bit Server VM, 11.0.4+11-post-Ubuntu-1ubuntu218.04.3
+# VM invoker: /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 1000 ms each
+# Measurement: 10 iterations, 1000 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: vladislav.problems.benchmark.BenchmarkMnemonics.replace9
+# Parameters: (N = 10)
+
+# Run progress: 45,45% complete, ETA 00:06:09
+# Fork: 1 of 2
+# Warmup Iteration   1: 44,283 ops/ms
+# Warmup Iteration   2: 92,067 ops/ms
+# Warmup Iteration   3: 136,017 ops/ms
+# Warmup Iteration   4: 137,634 ops/ms
+# Warmup Iteration   5: 135,572 ops/ms
+Iteration   1: 136,195 ops/ms
+Iteration   2: 130,133 ops/ms
+Iteration   3: 132,813 ops/ms
+Iteration   4: 134,587 ops/ms
+Iteration   5: 134,150 ops/ms
+Iteration   6: 133,339 ops/ms
+Iteration   7: 133,853 ops/ms
+Iteration   8: 138,172 ops/ms
+Iteration   9: 138,794 ops/ms
+Iteration  10: 137,752 ops/ms
+
+# Run progress: 47,73% complete, ETA 00:05:54
+# Fork: 2 of 2
+# Warmup Iteration   1: 49,293 ops/ms
+# Warmup Iteration   2: 96,279 ops/ms
+# Warmup Iteration   3: 131,832 ops/ms
+# Warmup Iteration   4: 133,720 ops/ms
+# Warmup Iteration   5: 133,416 ops/ms
+Iteration   1: 132,528 ops/ms
+Iteration   2: 130,507 ops/ms
+Iteration   3: 131,779 ops/ms
+Iteration   4: 135,098 ops/ms
+Iteration   5: 134,183 ops/ms
+Iteration   6: 134,023 ops/ms
+Iteration   7: 134,500 ops/ms
+Iteration   8: 134,973 ops/ms
+Iteration   9: 135,109 ops/ms
+Iteration  10: 135,299 ops/ms
+
+
+Result "vladislav.problems.benchmark.BenchmarkMnemonics.replace9":
+  134,389 ±(99.9%) 1,973 ops/ms [Average]
+  (min, avg, max) = (130,133, 134,389, 138,794), stdev = 2,272
+  CI (99.9%): [132,416, 136,362] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.4, OpenJDK 64-Bit Server VM, 11.0.4+11-post-Ubuntu-1ubuntu218.04.3
+# VM invoker: /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 1000 ms each
+# Measurement: 10 iterations, 1000 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: vladislav.problems.benchmark.BenchmarkMnemonics.replace
+# Parameters: (N = 10)
+
+# Run progress: 50,00% complete, ETA 00:05:38
+# Fork: 1 of 2
+# Warmup Iteration   1: 0,037 ms/op
+# Warmup Iteration   2: 0,014 ms/op
+# Warmup Iteration   3: 0,011 ms/op
+# Warmup Iteration   4: 0,011 ms/op
+# Warmup Iteration   5: 0,011 ms/op
+Iteration   1: 0,011 ms/op
+Iteration   2: 0,011 ms/op
+Iteration   3: 0,011 ms/op
+Iteration   4: 0,011 ms/op
+Iteration   5: 0,011 ms/op
+Iteration   6: 0,011 ms/op
+Iteration   7: 0,011 ms/op
+Iteration   8: 0,010 ms/op
+Iteration   9: 0,011 ms/op
+Iteration  10: 0,011 ms/op
+
+# Run progress: 52,27% complete, ETA 00:05:23
+# Fork: 2 of 2
+# Warmup Iteration   1: 0,030 ms/op
+# Warmup Iteration   2: 0,013 ms/op
+# Warmup Iteration   3: 0,011 ms/op
+# Warmup Iteration   4: 0,010 ms/op
+# Warmup Iteration   5: 0,011 ms/op
+Iteration   1: 0,011 ms/op
+Iteration   2: 0,010 ms/op
+Iteration   3: 0,011 ms/op
+Iteration   4: 0,011 ms/op
+Iteration   5: 0,010 ms/op
+Iteration   6: 0,010 ms/op
+Iteration   7: 0,010 ms/op
+Iteration   8: 0,010 ms/op
+Iteration   9: 0,010 ms/op
+Iteration  10: 0,010 ms/op
+
+
+Result "vladislav.problems.benchmark.BenchmarkMnemonics.replace":
+  0,011 ±(99.9%) 0,001 ms/op [Average]
+  (min, avg, max) = (0,010, 0,011, 0,011), stdev = 0,001
+  CI (99.9%): [0,010, 0,011] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.4, OpenJDK 64-Bit Server VM, 11.0.4+11-post-Ubuntu-1ubuntu218.04.3
+# VM invoker: /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 1000 ms each
+# Measurement: 10 iterations, 1000 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: vladislav.problems.benchmark.BenchmarkMnemonics.replace1
+# Parameters: (N = 10)
+
+# Run progress: 54,55% complete, ETA 00:05:07
+# Fork: 1 of 2
+# Warmup Iteration   1: 0,028 ms/op
+# Warmup Iteration   2: 0,012 ms/op
+# Warmup Iteration   3: 0,010 ms/op
+# Warmup Iteration   4: 0,010 ms/op
+# Warmup Iteration   5: 0,011 ms/op
+Iteration   1: 0,010 ms/op
+Iteration   2: 0,010 ms/op
+Iteration   3: 0,010 ms/op
+Iteration   4: 0,010 ms/op
+Iteration   5: 0,010 ms/op
+Iteration   6: 0,010 ms/op
+Iteration   7: 0,010 ms/op
+Iteration   8: 0,010 ms/op
+Iteration   9: 0,010 ms/op
+Iteration  10: 0,010 ms/op
+
+# Run progress: 56,82% complete, ETA 00:04:52
+# Fork: 2 of 2
+# Warmup Iteration   1: 0,030 ms/op
+# Warmup Iteration   2: 0,013 ms/op
+# Warmup Iteration   3: 0,011 ms/op
+# Warmup Iteration   4: 0,011 ms/op
+# Warmup Iteration   5: 0,011 ms/op
+Iteration   1: 0,010 ms/op
+Iteration   2: 0,010 ms/op
+Iteration   3: 0,010 ms/op
+Iteration   4: 0,010 ms/op
+Iteration   5: 0,010 ms/op
+Iteration   6: 0,010 ms/op
+Iteration   7: 0,010 ms/op
+Iteration   8: 0,010 ms/op
+Iteration   9: 0,010 ms/op
+Iteration  10: 0,010 ms/op
+
+
+Result "vladislav.problems.benchmark.BenchmarkMnemonics.replace1":
+  0,010 ±(99.9%) 0,001 ms/op [Average]
+  (min, avg, max) = (0,010, 0,010, 0,010), stdev = 0,001
+  CI (99.9%): [0,010, 0,010] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.4, OpenJDK 64-Bit Server VM, 11.0.4+11-post-Ubuntu-1ubuntu218.04.3
+# VM invoker: /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 1000 ms each
+# Measurement: 10 iterations, 1000 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: vladislav.problems.benchmark.BenchmarkMnemonics.replace10
+# Parameters: (N = 10)
+
+# Run progress: 59,09% complete, ETA 00:04:37
+# Fork: 1 of 2
+# Warmup Iteration   1: 0,097 ms/op
+# Warmup Iteration   2: 0,032 ms/op
+# Warmup Iteration   3: 0,033 ms/op
+# Warmup Iteration   4: 0,030 ms/op
+# Warmup Iteration   5: 0,028 ms/op
+Iteration   1: 0,029 ms/op
+Iteration   2: 0,028 ms/op
+Iteration   3: 0,028 ms/op
+Iteration   4: 0,028 ms/op
+Iteration   5: 0,028 ms/op
+Iteration   6: 0,030 ms/op
+Iteration   7: 0,029 ms/op
+Iteration   8: 0,028 ms/op
+Iteration   9: 0,029 ms/op
+Iteration  10: 0,029 ms/op
+
+# Run progress: 61,36% complete, ETA 00:04:21
+# Fork: 2 of 2
+# Warmup Iteration   1: 0,084 ms/op
+# Warmup Iteration   2: 0,032 ms/op
+# Warmup Iteration   3: 0,033 ms/op
+# Warmup Iteration   4: 0,030 ms/op
+# Warmup Iteration   5: 0,028 ms/op
+Iteration   1: 0,028 ms/op
+Iteration   2: 0,028 ms/op
+Iteration   3: 0,028 ms/op
+Iteration   4: 0,029 ms/op
+Iteration   5: 0,028 ms/op
+Iteration   6: 0,028 ms/op
+Iteration   7: 0,029 ms/op
+Iteration   8: 0,028 ms/op
+Iteration   9: 0,028 ms/op
+Iteration  10: 0,028 ms/op
+
+
+Result "vladislav.problems.benchmark.BenchmarkMnemonics.replace10":
+  0,028 ±(99.9%) 0,001 ms/op [Average]
+  (min, avg, max) = (0,028, 0,028, 0,030), stdev = 0,001
+  CI (99.9%): [0,028, 0,029] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.4, OpenJDK 64-Bit Server VM, 11.0.4+11-post-Ubuntu-1ubuntu218.04.3
+# VM invoker: /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 1000 ms each
+# Measurement: 10 iterations, 1000 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: vladislav.problems.benchmark.BenchmarkMnemonics.replace2
+# Parameters: (N = 10)
+
+# Run progress: 63,64% complete, ETA 00:04:06
+# Fork: 1 of 2
+# Warmup Iteration   1: 0,034 ms/op
+# Warmup Iteration   2: 0,014 ms/op
+# Warmup Iteration   3: 0,011 ms/op
+# Warmup Iteration   4: 0,011 ms/op
+# Warmup Iteration   5: 0,011 ms/op
+Iteration   1: 0,011 ms/op
+Iteration   2: 0,011 ms/op
+Iteration   3: 0,011 ms/op
+Iteration   4: 0,011 ms/op
+Iteration   5: 0,011 ms/op
+Iteration   6: 0,011 ms/op
+Iteration   7: 0,011 ms/op
+Iteration   8: 0,011 ms/op
+Iteration   9: 0,011 ms/op
+Iteration  10: 0,011 ms/op
+
+# Run progress: 65,91% complete, ETA 00:03:50
+# Fork: 2 of 2
+# Warmup Iteration   1: 0,033 ms/op
+# Warmup Iteration   2: 0,014 ms/op
+# Warmup Iteration   3: 0,011 ms/op
+# Warmup Iteration   4: 0,011 ms/op
+# Warmup Iteration   5: 0,011 ms/op
+Iteration   1: 0,011 ms/op
+Iteration   2: 0,011 ms/op
+Iteration   3: 0,011 ms/op
+Iteration   4: 0,011 ms/op
+Iteration   5: 0,011 ms/op
+Iteration   6: 0,011 ms/op
+Iteration   7: 0,011 ms/op
+Iteration   8: 0,011 ms/op
+Iteration   9: 0,011 ms/op
+Iteration  10: 0,011 ms/op
+
+
+Result "vladislav.problems.benchmark.BenchmarkMnemonics.replace2":
+  0,011 ±(99.9%) 0,001 ms/op [Average]
+  (min, avg, max) = (0,011, 0,011, 0,011), stdev = 0,001
+  CI (99.9%): [0,011, 0,011] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.4, OpenJDK 64-Bit Server VM, 11.0.4+11-post-Ubuntu-1ubuntu218.04.3
+# VM invoker: /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 1000 ms each
+# Measurement: 10 iterations, 1000 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: vladislav.problems.benchmark.BenchmarkMnemonics.replace3
+# Parameters: (N = 10)
+
+# Run progress: 68,18% complete, ETA 00:03:35
+# Fork: 1 of 2
+# Warmup Iteration   1: 0,031 ms/op
+# Warmup Iteration   2: 0,014 ms/op
+# Warmup Iteration   3: 0,011 ms/op
+# Warmup Iteration   4: 0,011 ms/op
+# Warmup Iteration   5: 0,011 ms/op
+Iteration   1: 0,011 ms/op
+Iteration   2: 0,011 ms/op
+Iteration   3: 0,011 ms/op
+Iteration   4: 0,011 ms/op
+Iteration   5: 0,011 ms/op
+Iteration   6: 0,011 ms/op
+Iteration   7: 0,011 ms/op
+Iteration   8: 0,011 ms/op
+Iteration   9: 0,011 ms/op
+Iteration  10: 0,011 ms/op
+
+# Run progress: 70,45% complete, ETA 00:03:20
+# Fork: 2 of 2
+# Warmup Iteration   1: 0,033 ms/op
+# Warmup Iteration   2: 0,014 ms/op
+# Warmup Iteration   3: 0,011 ms/op
+# Warmup Iteration   4: 0,011 ms/op
+# Warmup Iteration   5: 0,011 ms/op
+Iteration   1: 0,011 ms/op
+Iteration   2: 0,011 ms/op
+Iteration   3: 0,010 ms/op
+Iteration   4: 0,011 ms/op
+Iteration   5: 0,010 ms/op
+Iteration   6: 0,011 ms/op
+Iteration   7: 0,010 ms/op
+Iteration   8: 0,010 ms/op
+Iteration   9: 0,010 ms/op
+Iteration  10: 0,010 ms/op
+
+
+Result "vladislav.problems.benchmark.BenchmarkMnemonics.replace3":
+  0,011 ±(99.9%) 0,001 ms/op [Average]
+  (min, avg, max) = (0,010, 0,011, 0,011), stdev = 0,001
+  CI (99.9%): [0,010, 0,011] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.4, OpenJDK 64-Bit Server VM, 11.0.4+11-post-Ubuntu-1ubuntu218.04.3
+# VM invoker: /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 1000 ms each
+# Measurement: 10 iterations, 1000 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: vladislav.problems.benchmark.BenchmarkMnemonics.replace4
+# Parameters: (N = 10)
+
+# Run progress: 72,73% complete, ETA 00:03:04
+# Fork: 1 of 2
+# Warmup Iteration   1: 0,034 ms/op
+# Warmup Iteration   2: 0,014 ms/op
+# Warmup Iteration   3: 0,011 ms/op
+# Warmup Iteration   4: 0,011 ms/op
+# Warmup Iteration   5: 0,011 ms/op
+Iteration   1: 0,011 ms/op
+Iteration   2: 0,011 ms/op
+Iteration   3: 0,011 ms/op
+Iteration   4: 0,011 ms/op
+Iteration   5: 0,011 ms/op
+Iteration   6: 0,011 ms/op
+Iteration   7: 0,010 ms/op
+Iteration   8: 0,010 ms/op
+Iteration   9: 0,010 ms/op
+Iteration  10: 0,010 ms/op
+
+# Run progress: 75,00% complete, ETA 00:02:49
+# Fork: 2 of 2
+# Warmup Iteration   1: 0,031 ms/op
+# Warmup Iteration   2: 0,013 ms/op
+# Warmup Iteration   3: 0,011 ms/op
+# Warmup Iteration   4: 0,010 ms/op
+# Warmup Iteration   5: 0,011 ms/op
+Iteration   1: 0,010 ms/op
+Iteration   2: 0,010 ms/op
+Iteration   3: 0,010 ms/op
+Iteration   4: 0,010 ms/op
+Iteration   5: 0,010 ms/op
+Iteration   6: 0,010 ms/op
+Iteration   7: 0,010 ms/op
+Iteration   8: 0,010 ms/op
+Iteration   9: 0,010 ms/op
+Iteration  10: 0,010 ms/op
+
+
+Result "vladislav.problems.benchmark.BenchmarkMnemonics.replace4":
+  0,010 ±(99.9%) 0,001 ms/op [Average]
+  (min, avg, max) = (0,010, 0,010, 0,011), stdev = 0,001
+  CI (99.9%): [0,010, 0,011] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.4, OpenJDK 64-Bit Server VM, 11.0.4+11-post-Ubuntu-1ubuntu218.04.3
+# VM invoker: /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 1000 ms each
+# Measurement: 10 iterations, 1000 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: vladislav.problems.benchmark.BenchmarkMnemonics.replace5
+# Parameters: (N = 10)
+
+# Run progress: 77,27% complete, ETA 00:02:33
+# Fork: 1 of 2
+# Warmup Iteration   1: 0,029 ms/op
+# Warmup Iteration   2: 0,013 ms/op
+# Warmup Iteration   3: 0,011 ms/op
+# Warmup Iteration   4: 0,010 ms/op
+# Warmup Iteration   5: 0,011 ms/op
+Iteration   1: 0,010 ms/op
+Iteration   2: 0,010 ms/op
+Iteration   3: 0,010 ms/op
+Iteration   4: 0,010 ms/op
+Iteration   5: 0,011 ms/op
+Iteration   6: 0,011 ms/op
+Iteration   7: 0,010 ms/op
+Iteration   8: 0,010 ms/op
+Iteration   9: 0,010 ms/op
+Iteration  10: 0,010 ms/op
+
+# Run progress: 79,55% complete, ETA 00:02:18
+# Fork: 2 of 2
+# Warmup Iteration   1: 0,032 ms/op
+# Warmup Iteration   2: 0,013 ms/op
+# Warmup Iteration   3: 0,010 ms/op
+# Warmup Iteration   4: 0,011 ms/op
+# Warmup Iteration   5: 0,011 ms/op
+Iteration   1: 0,010 ms/op
+Iteration   2: 0,010 ms/op
+Iteration   3: 0,010 ms/op
+Iteration   4: 0,010 ms/op
+Iteration   5: 0,010 ms/op
+Iteration   6: 0,010 ms/op
+Iteration   7: 0,010 ms/op
+Iteration   8: 0,010 ms/op
+Iteration   9: 0,010 ms/op
+Iteration  10: 0,010 ms/op
+
+
+Result "vladislav.problems.benchmark.BenchmarkMnemonics.replace5":
+  0,010 ±(99.9%) 0,001 ms/op [Average]
+  (min, avg, max) = (0,010, 0,010, 0,011), stdev = 0,001
+  CI (99.9%): [0,010, 0,010] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.4, OpenJDK 64-Bit Server VM, 11.0.4+11-post-Ubuntu-1ubuntu218.04.3
+# VM invoker: /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 1000 ms each
+# Measurement: 10 iterations, 1000 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: vladislav.problems.benchmark.BenchmarkMnemonics.replace6
+# Parameters: (N = 10)
+
+# Run progress: 81,82% complete, ETA 00:02:03
+# Fork: 1 of 2
+# Warmup Iteration   1: 0,029 ms/op
+# Warmup Iteration   2: 0,013 ms/op
+# Warmup Iteration   3: 0,010 ms/op
+# Warmup Iteration   4: 0,010 ms/op
+# Warmup Iteration   5: 0,011 ms/op
+Iteration   1: 0,010 ms/op
+Iteration   2: 0,010 ms/op
+Iteration   3: 0,010 ms/op
+Iteration   4: 0,010 ms/op
+Iteration   5: 0,010 ms/op
+Iteration   6: 0,010 ms/op
+Iteration   7: 0,010 ms/op
+Iteration   8: 0,010 ms/op
+Iteration   9: 0,011 ms/op
+Iteration  10: 0,010 ms/op
+
+# Run progress: 84,09% complete, ETA 00:01:47
+# Fork: 2 of 2
+# Warmup Iteration   1: 0,030 ms/op
+# Warmup Iteration   2: 0,013 ms/op
+# Warmup Iteration   3: 0,010 ms/op
+# Warmup Iteration   4: 0,010 ms/op
+# Warmup Iteration   5: 0,011 ms/op
+Iteration   1: 0,010 ms/op
+Iteration   2: 0,010 ms/op
+Iteration   3: 0,010 ms/op
+Iteration   4: 0,010 ms/op
+Iteration   5: 0,010 ms/op
+Iteration   6: 0,010 ms/op
+Iteration   7: 0,010 ms/op
+Iteration   8: 0,010 ms/op
+Iteration   9: 0,010 ms/op
+Iteration  10: 0,010 ms/op
+
+
+Result "vladislav.problems.benchmark.BenchmarkMnemonics.replace6":
+  0,010 ±(99.9%) 0,001 ms/op [Average]
+  (min, avg, max) = (0,010, 0,010, 0,011), stdev = 0,001
+  CI (99.9%): [0,010, 0,010] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.4, OpenJDK 64-Bit Server VM, 11.0.4+11-post-Ubuntu-1ubuntu218.04.3
+# VM invoker: /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 1000 ms each
+# Measurement: 10 iterations, 1000 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: vladislav.problems.benchmark.BenchmarkMnemonics.replace7
+# Parameters: (N = 10)
+
+# Run progress: 86,36% complete, ETA 00:01:32
+# Fork: 1 of 2
+# Warmup Iteration   1: 0,084 ms/op
+# Warmup Iteration   2: 0,039 ms/op
+# Warmup Iteration   3: 0,029 ms/op
+# Warmup Iteration   4: 0,031 ms/op
+# Warmup Iteration   5: 0,030 ms/op
+Iteration   1: 0,028 ms/op
+Iteration   2: 0,030 ms/op
+Iteration   3: 0,028 ms/op
+Iteration   4: 0,028 ms/op
+Iteration   5: 0,032 ms/op
+Iteration   6: 0,028 ms/op
+Iteration   7: 0,028 ms/op
+Iteration   8: 0,035 ms/op
+Iteration   9: 0,028 ms/op
+Iteration  10: 0,029 ms/op
+
+# Run progress: 88,64% complete, ETA 00:01:16
+# Fork: 2 of 2
+# Warmup Iteration   1: 0,065 ms/op
+# Warmup Iteration   2: 0,037 ms/op
+# Warmup Iteration   3: 0,033 ms/op
+# Warmup Iteration   4: 0,035 ms/op
+# Warmup Iteration   5: 0,032 ms/op
+Iteration   1: 0,029 ms/op
+Iteration   2: 0,031 ms/op
+Iteration   3: 0,029 ms/op
+Iteration   4: 0,029 ms/op
+Iteration   5: 0,029 ms/op
+Iteration   6: 0,029 ms/op
+Iteration   7: 0,028 ms/op
+Iteration   8: 0,029 ms/op
+Iteration   9: 0,029 ms/op
+Iteration  10: 0,029 ms/op
+
+
+Result "vladislav.problems.benchmark.BenchmarkMnemonics.replace7":
+  0,029 ±(99.9%) 0,002 ms/op [Average]
+  (min, avg, max) = (0,028, 0,029, 0,035), stdev = 0,002
+  CI (99.9%): [0,028, 0,031] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.4, OpenJDK 64-Bit Server VM, 11.0.4+11-post-Ubuntu-1ubuntu218.04.3
+# VM invoker: /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 1000 ms each
+# Measurement: 10 iterations, 1000 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: vladislav.problems.benchmark.BenchmarkMnemonics.replace8
+# Parameters: (N = 10)
+
+# Run progress: 90,91% complete, ETA 00:01:01
+# Fork: 1 of 2
+# Warmup Iteration   1: 0,135 ms/op
+# Warmup Iteration   2: 0,054 ms/op
+# Warmup Iteration   3: 0,034 ms/op
+# Warmup Iteration   4: 0,032 ms/op
+# Warmup Iteration   5: 0,033 ms/op
+Iteration   1: 0,033 ms/op
+Iteration   2: 0,032 ms/op
+Iteration   3: 0,033 ms/op
+Iteration   4: 0,032 ms/op
+Iteration   5: 0,031 ms/op
+Iteration   6: 0,031 ms/op
+Iteration   7: 0,036 ms/op
+Iteration   8: 0,032 ms/op
+Iteration   9: 0,032 ms/op
+Iteration  10: 0,032 ms/op
+
+# Run progress: 93,18% complete, ETA 00:00:46
+# Fork: 2 of 2
+# Warmup Iteration   1: 0,140 ms/op
+# Warmup Iteration   2: 0,059 ms/op
+# Warmup Iteration   3: 0,034 ms/op
+# Warmup Iteration   4: 0,031 ms/op
+# Warmup Iteration   5: 0,032 ms/op
+Iteration   1: 0,032 ms/op
+Iteration   2: 0,041 ms/op
+Iteration   3: 0,032 ms/op
+Iteration   4: 0,031 ms/op
+Iteration   5: 0,031 ms/op
+Iteration   6: 0,031 ms/op
+Iteration   7: 0,031 ms/op
+Iteration   8: 0,030 ms/op
+Iteration   9: 0,030 ms/op
+Iteration  10: 0,031 ms/op
+
+
+Result "vladislav.problems.benchmark.BenchmarkMnemonics.replace8":
+  0,032 ±(99.9%) 0,002 ms/op [Average]
+  (min, avg, max) = (0,030, 0,032, 0,041), stdev = 0,002
+  CI (99.9%): [0,030, 0,034] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.4, OpenJDK 64-Bit Server VM, 11.0.4+11-post-Ubuntu-1ubuntu218.04.3
+# VM invoker: /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 1000 ms each
+# Measurement: 10 iterations, 1000 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: vladislav.problems.benchmark.BenchmarkMnemonics.replace9
+# Parameters: (N = 10)
+
+# Run progress: 95,45% complete, ETA 00:00:30
+# Fork: 1 of 2
+# Warmup Iteration   1: 0,019 ms/op
+# Warmup Iteration   2: 0,010 ms/op
+# Warmup Iteration   3: 0,007 ms/op
+# Warmup Iteration   4: 0,008 ms/op
+# Warmup Iteration   5: 0,007 ms/op
+Iteration   1: 0,007 ms/op
+Iteration   2: 0,007 ms/op
+Iteration   3: 0,007 ms/op
+Iteration   4: 0,007 ms/op
+Iteration   5: 0,007 ms/op
+Iteration   6: 0,007 ms/op
+Iteration   7: 0,007 ms/op
+Iteration   8: 0,007 ms/op
+Iteration   9: 0,007 ms/op
+Iteration  10: 0,007 ms/op
+
+# Run progress: 97,73% complete, ETA 00:00:15
+# Fork: 2 of 2
+# Warmup Iteration   1: 0,020 ms/op
+# Warmup Iteration   2: 0,010 ms/op
+# Warmup Iteration   3: 0,007 ms/op
+# Warmup Iteration   4: 0,007 ms/op
+# Warmup Iteration   5: 0,008 ms/op
+Iteration   1: 0,007 ms/op
+Iteration   2: 0,007 ms/op
+Iteration   3: 0,007 ms/op
+Iteration   4: 0,007 ms/op
+Iteration   5: 0,007 ms/op
+Iteration   6: 0,007 ms/op
+Iteration   7: 0,007 ms/op
+Iteration   8: 0,007 ms/op
+Iteration   9: 0,007 ms/op
+Iteration  10: 0,007 ms/op
+
+
+Result "vladislav.problems.benchmark.BenchmarkMnemonics.replace9":
+  0,007 ±(99.9%) 0,001 ms/op [Average]
+  (min, avg, max) = (0,007, 0,007, 0,007), stdev = 0,001
+  CI (99.9%): [0,007, 0,007] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:11:16
 
 REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
 why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
@@ -339,10 +1219,27 @@ experiments, perform baseline and negative tests that provide experimental contr
 the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
 Do not assume the numbers tell you what you want them to tell.
 
-Benchmark                    (N)   Mode  Cnt   Score   Error   Units
-BenchmarkMnemonics.replace    10  thrpt   20  90,252 ± 1,668  ops/ms
-BenchmarkMnemonics.replace1   10  thrpt   20  98,608 ± 1,589  ops/ms
-BenchmarkMnemonics.replace2   10  thrpt   20  94,609 ± 1,472  ops/ms
-BenchmarkMnemonics.replace3   10  thrpt   20  89,760 ± 1,628  ops/ms
-BenchmarkMnemonics.replace4   10  thrpt   20  91,831 ± 1,475  ops/ms
-BenchmarkMnemonics.replace5   10  thrpt   20  93,557 ± 1,670  ops/ms
+Benchmark                     (N)   Mode  Cnt    Score    Error   Units
+BenchmarkMnemonics.replace     10  thrpt   20   94,045 ±  3,002  ops/ms
+BenchmarkMnemonics.replace1    10  thrpt   20   95,535 ±  1,600  ops/ms
+BenchmarkMnemonics.replace10   10  thrpt   20   35,056 ±  0,778  ops/ms
+BenchmarkMnemonics.replace2    10  thrpt   20   96,137 ±  1,228  ops/ms
+BenchmarkMnemonics.replace3    10  thrpt   20   95,045 ±  1,145  ops/ms
+BenchmarkMnemonics.replace4    10  thrpt   20   95,098 ±  1,161  ops/ms
+BenchmarkMnemonics.replace5    10  thrpt   20   97,762 ±  1,420  ops/ms
+BenchmarkMnemonics.replace6    10  thrpt   20   95,136 ±  1,375  ops/ms
+BenchmarkMnemonics.replace7    10  thrpt   20   34,495 ±  0,963  ops/ms
+BenchmarkMnemonics.replace8    10  thrpt   20   31,818 ±  0,891  ops/ms
+BenchmarkMnemonics.replace9    10  thrpt   20  134,389 ±  1,973  ops/ms
+BenchmarkMnemonics.replace     10   avgt   20    0,011 ±  0,001   ms/op
+BenchmarkMnemonics.replace1    10   avgt   20    0,010 ±  0,001   ms/op
+BenchmarkMnemonics.replace10   10   avgt   20    0,028 ±  0,001   ms/op
+BenchmarkMnemonics.replace2    10   avgt   20    0,011 ±  0,001   ms/op
+BenchmarkMnemonics.replace3    10   avgt   20    0,011 ±  0,001   ms/op
+BenchmarkMnemonics.replace4    10   avgt   20    0,010 ±  0,001   ms/op
+BenchmarkMnemonics.replace5    10   avgt   20    0,010 ±  0,001   ms/op
+BenchmarkMnemonics.replace6    10   avgt   20    0,010 ±  0,001   ms/op
+BenchmarkMnemonics.replace7    10   avgt   20    0,029 ±  0,002   ms/op
+BenchmarkMnemonics.replace8    10   avgt   20    0,032 ±  0,002   ms/op
+BenchmarkMnemonics.replace9    10   avgt   20    0,007 ±  0,001   ms/op
+

@@ -16,6 +16,7 @@ public class Mnemonics {
         return string.toString();
     }
 
+    // Equals replace
     public static String replace2(Stream<String> stream, String replacement) {
         return stream.map(s -> s.replaceAll("&[a-zA-Z0-9]+;", replacement)).reduce((s1, s2) -> s1 + s2).get();
     }
@@ -40,5 +41,36 @@ public class Mnemonics {
                 StringBuilder::append,
                 StringBuilder::toString
         ));
+    }
+
+    public static String replace6(Stream<String> stream, String replacement) {
+        return stream.reduce(
+                "",
+                (s, s2) -> s.concat(s2.replaceAll("&[a-zA-Z0-9]+;", replacement)),
+                String::concat
+        );
+    }
+
+    public static String replace7(Stream<String> stream, String replacement) {
+        return stream.parallel().reduce(
+                "",
+                (s, s2) -> s.concat(s2.replaceAll("&[a-zA-Z0-9]+;", replacement)),
+                String::concat
+        );
+    }
+
+    public static String replace8(Stream<String> stream, String replacement) {
+        return stream.parallel().reduce(
+                "",
+                (s, s2) -> s.concat(s2.replaceAll("&[a-zA-Z0-9]+;", replacement))
+        );
+    }
+
+    public static String replace9(Stream<String> stream, String replacement) {
+        return stream.reduce("", String::concat).replaceAll("&[a-zA-Z0-9]+;", replacement);
+    }
+
+    public static String replace10(Stream<String> stream, String replacement) {
+        return stream.parallel().reduce("", String::concat).replaceAll("&[a-zA-Z0-9]+;", replacement);
     }
 }
