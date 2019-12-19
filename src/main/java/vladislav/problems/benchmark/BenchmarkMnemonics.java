@@ -17,7 +17,7 @@ import static java.util.concurrent.TimeUnit.MILLISECONDS;
 @OutputTimeUnit(MILLISECONDS)
 @Warmup(iterations = 5, time = 1000, timeUnit = MILLISECONDS)
 @Measurement(iterations = 10, time = 1000, timeUnit = MILLISECONDS)
-@Fork(1)
+@Fork(value = 2, jvmArgs = {"-Xms2G", "-Xmx2G"})
 public class BenchmarkMnemonics {
 
     @Param({"10"})
@@ -27,7 +27,6 @@ public class BenchmarkMnemonics {
 
         Options opt = new OptionsBuilder()
                 .include(BenchmarkMnemonics.class.getSimpleName())
-                .forks(1)
                 .build();
 
         new Runner(opt).run();
