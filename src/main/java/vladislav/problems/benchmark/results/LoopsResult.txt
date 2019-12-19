@@ -1,0 +1,681 @@
+# JMH version: 1.21
+# VM version: JDK 11.0.5, OpenJDK 64-Bit Server VM, 11.0.5+10-post-Ubuntu-0ubuntu1.118.04
+# VM invoker: /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 1000 ms each
+# Measurement: 10 iterations, 1000 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: vladislav.problems.benchmark.BenchmarkStreamLoopsVsLoops.loopFor
+# Parameters: (N = 10000000)
+
+# Run progress: 0,00% complete, ETA 00:06:00
+# Fork: 1 of 2
+# Warmup Iteration   1: 0,018 ops/ms
+# Warmup Iteration   2: 0,018 ops/ms
+# Warmup Iteration   3: 0,018 ops/ms
+# Warmup Iteration   4: 0,018 ops/ms
+# Warmup Iteration   5: 0,018 ops/ms
+Iteration   1: 0,018 ops/ms
+Iteration   2: 0,018 ops/ms
+Iteration   3: 0,018 ops/ms
+Iteration   4: 0,018 ops/ms
+Iteration   5: 0,018 ops/ms
+Iteration   6: 0,018 ops/ms
+Iteration   7: 0,018 ops/ms
+Iteration   8: 0,018 ops/ms
+Iteration   9: 0,018 ops/ms
+Iteration  10: 0,018 ops/ms
+
+# Run progress: 4,17% complete, ETA 00:06:05
+# Fork: 2 of 2
+# Warmup Iteration   1: 0,018 ops/ms
+# Warmup Iteration   2: 0,018 ops/ms
+# Warmup Iteration   3: 0,018 ops/ms
+# Warmup Iteration   4: 0,018 ops/ms
+# Warmup Iteration   5: 0,018 ops/ms
+Iteration   1: 0,018 ops/ms
+Iteration   2: 0,018 ops/ms
+Iteration   3: 0,018 ops/ms
+Iteration   4: 0,018 ops/ms
+Iteration   5: 0,018 ops/ms
+Iteration   6: 0,018 ops/ms
+Iteration   7: 0,018 ops/ms
+Iteration   8: 0,018 ops/ms
+Iteration   9: 0,018 ops/ms
+Iteration  10: 0,018 ops/ms
+
+
+Result "vladislav.problems.benchmark.BenchmarkStreamLoopsVsLoops.loopFor":
+  0,018 ±(99.9%) 0,001 ops/ms [Average]
+  (min, avg, max) = (0,018, 0,018, 0,018), stdev = 0,001
+  CI (99.9%): [0,018, 0,018] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.5, OpenJDK 64-Bit Server VM, 11.0.5+10-post-Ubuntu-0ubuntu1.118.04
+# VM invoker: /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 1000 ms each
+# Measurement: 10 iterations, 1000 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: vladislav.problems.benchmark.BenchmarkStreamLoopsVsLoops.loopForEach
+# Parameters: (N = 10000000)
+
+# Run progress: 8,33% complete, ETA 00:05:54
+# Fork: 1 of 2
+# Warmup Iteration   1: 0,017 ops/ms
+# Warmup Iteration   2: 0,017 ops/ms
+# Warmup Iteration   3: 0,017 ops/ms
+# Warmup Iteration   4: 0,017 ops/ms
+# Warmup Iteration   5: 0,016 ops/ms
+Iteration   1: 0,017 ops/ms
+Iteration   2: 0,017 ops/ms
+Iteration   3: 0,017 ops/ms
+Iteration   4: 0,017 ops/ms
+Iteration   5: 0,017 ops/ms
+Iteration   6: 0,017 ops/ms
+Iteration   7: 0,017 ops/ms
+Iteration   8: 0,017 ops/ms
+Iteration   9: 0,017 ops/ms
+Iteration  10: 0,017 ops/ms
+
+# Run progress: 12,50% complete, ETA 00:05:37
+# Fork: 2 of 2
+# Warmup Iteration   1: 0,017 ops/ms
+# Warmup Iteration   2: 0,017 ops/ms
+# Warmup Iteration   3: 0,017 ops/ms
+# Warmup Iteration   4: 0,017 ops/ms
+# Warmup Iteration   5: 0,017 ops/ms
+Iteration   1: 0,017 ops/ms
+Iteration   2: 0,017 ops/ms
+Iteration   3: 0,017 ops/ms
+Iteration   4: 0,017 ops/ms
+Iteration   5: 0,017 ops/ms
+Iteration   6: 0,017 ops/ms
+Iteration   7: 0,017 ops/ms
+Iteration   8: 0,017 ops/ms
+Iteration   9: 0,017 ops/ms
+Iteration  10: 0,017 ops/ms
+
+
+Result "vladislav.problems.benchmark.BenchmarkStreamLoopsVsLoops.loopForEach":
+  0,017 ±(99.9%) 0,001 ops/ms [Average]
+  (min, avg, max) = (0,017, 0,017, 0,017), stdev = 0,001
+  CI (99.9%): [0,017, 0,017] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.5, OpenJDK 64-Bit Server VM, 11.0.5+10-post-Ubuntu-0ubuntu1.118.04
+# VM invoker: /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 1000 ms each
+# Measurement: 10 iterations, 1000 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: vladislav.problems.benchmark.BenchmarkStreamLoopsVsLoops.loopIterator
+# Parameters: (N = 10000000)
+
+# Run progress: 16,67% complete, ETA 00:05:22
+# Fork: 1 of 2
+# Warmup Iteration   1: 0,017 ops/ms
+# Warmup Iteration   2: 0,017 ops/ms
+# Warmup Iteration   3: 0,017 ops/ms
+# Warmup Iteration   4: 0,017 ops/ms
+# Warmup Iteration   5: 0,017 ops/ms
+Iteration   1: 0,017 ops/ms
+Iteration   2: 0,017 ops/ms
+Iteration   3: 0,017 ops/ms
+Iteration   4: 0,017 ops/ms
+Iteration   5: 0,017 ops/ms
+Iteration   6: 0,017 ops/ms
+Iteration   7: 0,017 ops/ms
+Iteration   8: 0,017 ops/ms
+Iteration   9: 0,017 ops/ms
+Iteration  10: 0,017 ops/ms
+
+# Run progress: 20,83% complete, ETA 00:05:07
+# Fork: 2 of 2
+# Warmup Iteration   1: 0,017 ops/ms
+# Warmup Iteration   2: 0,017 ops/ms
+# Warmup Iteration   3: 0,017 ops/ms
+# Warmup Iteration   4: 0,017 ops/ms
+# Warmup Iteration   5: 0,017 ops/ms
+Iteration   1: 0,017 ops/ms
+Iteration   2: 0,017 ops/ms
+Iteration   3: 0,017 ops/ms
+Iteration   4: 0,017 ops/ms
+Iteration   5: 0,017 ops/ms
+Iteration   6: 0,017 ops/ms
+Iteration   7: 0,017 ops/ms
+Iteration   8: 0,017 ops/ms
+Iteration   9: 0,017 ops/ms
+Iteration  10: 0,017 ops/ms
+
+
+Result "vladislav.problems.benchmark.BenchmarkStreamLoopsVsLoops.loopIterator":
+  0,017 ±(99.9%) 0,001 ops/ms [Average]
+  (min, avg, max) = (0,017, 0,017, 0,017), stdev = 0,001
+  CI (99.9%): [0,017, 0,017] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.5, OpenJDK 64-Bit Server VM, 11.0.5+10-post-Ubuntu-0ubuntu1.118.04
+# VM invoker: /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 1000 ms each
+# Measurement: 10 iterations, 1000 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: vladislav.problems.benchmark.BenchmarkStreamLoopsVsLoops.loopParallelStream
+# Parameters: (N = 10000000)
+
+# Run progress: 25,00% complete, ETA 00:04:51
+# Fork: 1 of 2
+# Warmup Iteration   1: 0,009 ops/ms
+# Warmup Iteration   2: 0,009 ops/ms
+# Warmup Iteration   3: 0,009 ops/ms
+# Warmup Iteration   4: 0,009 ops/ms
+# Warmup Iteration   5: 0,009 ops/ms
+Iteration   1: 0,009 ops/ms
+Iteration   2: 0,009 ops/ms
+Iteration   3: 0,009 ops/ms
+Iteration   4: 0,009 ops/ms
+Iteration   5: 0,009 ops/ms
+Iteration   6: 0,009 ops/ms
+Iteration   7: 0,009 ops/ms
+Iteration   8: 0,009 ops/ms
+Iteration   9: 0,009 ops/ms
+Iteration  10: 0,009 ops/ms
+
+# Run progress: 29,17% complete, ETA 00:04:35
+# Fork: 2 of 2
+# Warmup Iteration   1: 0,008 ops/ms
+# Warmup Iteration   2: 0,008 ops/ms
+# Warmup Iteration   3: 0,008 ops/ms
+# Warmup Iteration   4: 0,008 ops/ms
+# Warmup Iteration   5: 0,008 ops/ms
+Iteration   1: 0,008 ops/ms
+Iteration   2: 0,008 ops/ms
+Iteration   3: 0,008 ops/ms
+Iteration   4: 0,008 ops/ms
+Iteration   5: 0,008 ops/ms
+Iteration   6: 0,008 ops/ms
+Iteration   7: 0,008 ops/ms
+Iteration   8: 0,008 ops/ms
+Iteration   9: 0,008 ops/ms
+Iteration  10: 0,008 ops/ms
+
+
+Result "vladislav.problems.benchmark.BenchmarkStreamLoopsVsLoops.loopParallelStream":
+  0,009 ±(99.9%) 0,001 ops/ms [Average]
+  (min, avg, max) = (0,008, 0,009, 0,009), stdev = 0,001
+  CI (99.9%): [0,008, 0,009] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.5, OpenJDK 64-Bit Server VM, 11.0.5+10-post-Ubuntu-0ubuntu1.118.04
+# VM invoker: /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 1000 ms each
+# Measurement: 10 iterations, 1000 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: vladislav.problems.benchmark.BenchmarkStreamLoopsVsLoops.loopStream
+# Parameters: (N = 10000000)
+
+# Run progress: 33,33% complete, ETA 00:04:20
+# Fork: 1 of 2
+# Warmup Iteration   1: 0,027 ops/ms
+# Warmup Iteration   2: 0,026 ops/ms
+# Warmup Iteration   3: 0,027 ops/ms
+# Warmup Iteration   4: 0,028 ops/ms
+# Warmup Iteration   5: 0,028 ops/ms
+Iteration   1: 0,028 ops/ms
+Iteration   2: 0,028 ops/ms
+Iteration   3: 0,028 ops/ms
+Iteration   4: 0,028 ops/ms
+Iteration   5: 0,028 ops/ms
+Iteration   6: 0,028 ops/ms
+Iteration   7: 0,028 ops/ms
+Iteration   8: 0,028 ops/ms
+Iteration   9: 0,028 ops/ms
+Iteration  10: 0,028 ops/ms
+
+# Run progress: 37,50% complete, ETA 00:04:03
+# Fork: 2 of 2
+# Warmup Iteration   1: 0,026 ops/ms
+# Warmup Iteration   2: 0,027 ops/ms
+# Warmup Iteration   3: 0,028 ops/ms
+# Warmup Iteration   4: 0,027 ops/ms
+# Warmup Iteration   5: 0,028 ops/ms
+Iteration   1: 0,028 ops/ms
+Iteration   2: 0,028 ops/ms
+Iteration   3: 0,028 ops/ms
+Iteration   4: 0,028 ops/ms
+Iteration   5: 0,028 ops/ms
+Iteration   6: 0,028 ops/ms
+Iteration   7: 0,028 ops/ms
+Iteration   8: 0,028 ops/ms
+Iteration   9: 0,028 ops/ms
+Iteration  10: 0,028 ops/ms
+
+
+Result "vladislav.problems.benchmark.BenchmarkStreamLoopsVsLoops.loopStream":
+  0,028 ±(99.9%) 0,001 ops/ms [Average]
+  (min, avg, max) = (0,028, 0,028, 0,028), stdev = 0,001
+  CI (99.9%): [0,028, 0,028] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.5, OpenJDK 64-Bit Server VM, 11.0.5+10-post-Ubuntu-0ubuntu1.118.04
+# VM invoker: /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 1000 ms each
+# Measurement: 10 iterations, 1000 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: vladislav.problems.benchmark.BenchmarkStreamLoopsVsLoops.loopWhile
+# Parameters: (N = 10000000)
+
+# Run progress: 41,67% complete, ETA 00:03:46
+# Fork: 1 of 2
+# Warmup Iteration   1: 0,018 ops/ms
+# Warmup Iteration   2: 0,018 ops/ms
+# Warmup Iteration   3: 0,018 ops/ms
+# Warmup Iteration   4: 0,018 ops/ms
+# Warmup Iteration   5: 0,018 ops/ms
+Iteration   1: 0,018 ops/ms
+Iteration   2: 0,018 ops/ms
+Iteration   3: 0,018 ops/ms
+Iteration   4: 0,018 ops/ms
+Iteration   5: 0,018 ops/ms
+Iteration   6: 0,018 ops/ms
+Iteration   7: 0,018 ops/ms
+Iteration   8: 0,018 ops/ms
+Iteration   9: 0,018 ops/ms
+Iteration  10: 0,018 ops/ms
+
+# Run progress: 45,83% complete, ETA 00:03:30
+# Fork: 2 of 2
+# Warmup Iteration   1: 0,018 ops/ms
+# Warmup Iteration   2: 0,018 ops/ms
+# Warmup Iteration   3: 0,018 ops/ms
+# Warmup Iteration   4: 0,018 ops/ms
+# Warmup Iteration   5: 0,018 ops/ms
+Iteration   1: 0,018 ops/ms
+Iteration   2: 0,018 ops/ms
+Iteration   3: 0,018 ops/ms
+Iteration   4: 0,018 ops/ms
+Iteration   5: 0,018 ops/ms
+Iteration   6: 0,018 ops/ms
+Iteration   7: 0,018 ops/ms
+Iteration   8: 0,018 ops/ms
+Iteration   9: 0,018 ops/ms
+Iteration  10: 0,018 ops/ms
+
+
+Result "vladislav.problems.benchmark.BenchmarkStreamLoopsVsLoops.loopWhile":
+  0,018 ±(99.9%) 0,001 ops/ms [Average]
+  (min, avg, max) = (0,018, 0,018, 0,018), stdev = 0,001
+  CI (99.9%): [0,018, 0,018] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.5, OpenJDK 64-Bit Server VM, 11.0.5+10-post-Ubuntu-0ubuntu1.118.04
+# VM invoker: /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 1000 ms each
+# Measurement: 10 iterations, 1000 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: vladislav.problems.benchmark.BenchmarkStreamLoopsVsLoops.loopFor
+# Parameters: (N = 10000000)
+
+# Run progress: 50,00% complete, ETA 00:03:14
+# Fork: 1 of 2
+# Warmup Iteration   1: 55,346 ms/op
+# Warmup Iteration   2: 55,462 ms/op
+# Warmup Iteration   3: 55,253 ms/op
+# Warmup Iteration   4: 55,597 ms/op
+# Warmup Iteration   5: 55,198 ms/op
+Iteration   1: 55,907 ms/op
+Iteration   2: 55,242 ms/op
+Iteration   3: 55,281 ms/op
+Iteration   4: 55,370 ms/op
+Iteration   5: 55,355 ms/op
+Iteration   6: 55,674 ms/op
+Iteration   7: 55,608 ms/op
+Iteration   8: 55,304 ms/op
+Iteration   9: 55,517 ms/op
+Iteration  10: 55,583 ms/op
+
+# Run progress: 54,17% complete, ETA 00:02:57
+# Fork: 2 of 2
+# Warmup Iteration   1: 55,177 ms/op
+# Warmup Iteration   2: 55,013 ms/op
+# Warmup Iteration   3: 55,057 ms/op
+# Warmup Iteration   4: 55,665 ms/op
+# Warmup Iteration   5: 55,019 ms/op
+Iteration   1: 55,068 ms/op
+Iteration   2: 55,030 ms/op
+Iteration   3: 54,849 ms/op
+Iteration   4: 54,933 ms/op
+Iteration   5: 54,871 ms/op
+Iteration   6: 55,062 ms/op
+Iteration   7: 55,037 ms/op
+Iteration   8: 55,015 ms/op
+Iteration   9: 54,936 ms/op
+Iteration  10: 55,109 ms/op
+
+
+Result "vladislav.problems.benchmark.BenchmarkStreamLoopsVsLoops.loopFor":
+  55,238 ±(99.9%) 0,259 ms/op [Average]
+  (min, avg, max) = (54,849, 55,238, 55,907), stdev = 0,298
+  CI (99.9%): [54,979, 55,497] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.5, OpenJDK 64-Bit Server VM, 11.0.5+10-post-Ubuntu-0ubuntu1.118.04
+# VM invoker: /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 1000 ms each
+# Measurement: 10 iterations, 1000 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: vladislav.problems.benchmark.BenchmarkStreamLoopsVsLoops.loopForEach
+# Parameters: (N = 10000000)
+
+# Run progress: 58,33% complete, ETA 00:02:41
+# Fork: 1 of 2
+# Warmup Iteration   1: 59,665 ms/op
+# Warmup Iteration   2: 58,242 ms/op
+# Warmup Iteration   3: 58,095 ms/op
+# Warmup Iteration   4: 58,132 ms/op
+# Warmup Iteration   5: 58,337 ms/op
+Iteration   1: 58,054 ms/op
+Iteration   2: 58,148 ms/op
+Iteration   3: 58,145 ms/op
+Iteration   4: 58,052 ms/op
+Iteration   5: 58,350 ms/op
+Iteration   6: 58,363 ms/op
+Iteration   7: 58,356 ms/op
+Iteration   8: 58,179 ms/op
+Iteration   9: 58,574 ms/op
+Iteration  10: 57,898 ms/op
+
+# Run progress: 62,50% complete, ETA 00:02:25
+# Fork: 2 of 2
+# Warmup Iteration   1: 58,728 ms/op
+# Warmup Iteration   2: 58,122 ms/op
+# Warmup Iteration   3: 59,048 ms/op
+# Warmup Iteration   4: 58,467 ms/op
+# Warmup Iteration   5: 58,418 ms/op
+Iteration   1: 58,196 ms/op
+Iteration   2: 59,045 ms/op
+Iteration   3: 58,960 ms/op
+Iteration   4: 57,990 ms/op
+Iteration   5: 58,363 ms/op
+Iteration   6: 58,237 ms/op
+Iteration   7: 58,305 ms/op
+Iteration   8: 58,261 ms/op
+Iteration   9: 58,155 ms/op
+Iteration  10: 58,063 ms/op
+
+
+Result "vladislav.problems.benchmark.BenchmarkStreamLoopsVsLoops.loopForEach":
+  58,285 ±(99.9%) 0,253 ms/op [Average]
+  (min, avg, max) = (57,898, 58,285, 59,045), stdev = 0,291
+  CI (99.9%): [58,032, 58,538] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.5, OpenJDK 64-Bit Server VM, 11.0.5+10-post-Ubuntu-0ubuntu1.118.04
+# VM invoker: /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 1000 ms each
+# Measurement: 10 iterations, 1000 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: vladislav.problems.benchmark.BenchmarkStreamLoopsVsLoops.loopIterator
+# Parameters: (N = 10000000)
+
+# Run progress: 66,67% complete, ETA 00:02:09
+# Fork: 1 of 2
+# Warmup Iteration   1: 59,321 ms/op
+# Warmup Iteration   2: 58,511 ms/op
+# Warmup Iteration   3: 58,765 ms/op
+# Warmup Iteration   4: 58,524 ms/op
+# Warmup Iteration   5: 58,316 ms/op
+Iteration   1: 58,289 ms/op
+Iteration   2: 58,233 ms/op
+Iteration   3: 58,415 ms/op
+Iteration   4: 58,253 ms/op
+Iteration   5: 58,771 ms/op
+Iteration   6: 58,358 ms/op
+Iteration   7: 58,432 ms/op
+Iteration   8: 58,240 ms/op
+Iteration   9: 58,344 ms/op
+Iteration  10: 58,421 ms/op
+
+# Run progress: 70,83% complete, ETA 00:01:53
+# Fork: 2 of 2
+# Warmup Iteration   1: 58,655 ms/op
+# Warmup Iteration   2: 58,437 ms/op
+# Warmup Iteration   3: 58,365 ms/op
+# Warmup Iteration   4: 58,153 ms/op
+# Warmup Iteration   5: 59,008 ms/op
+Iteration   1: 58,264 ms/op
+Iteration   2: 58,386 ms/op
+Iteration   3: 58,067 ms/op
+Iteration   4: 59,127 ms/op
+Iteration   5: 58,220 ms/op
+Iteration   6: 58,429 ms/op
+Iteration   7: 57,816 ms/op
+Iteration   8: 58,747 ms/op
+Iteration   9: 58,395 ms/op
+Iteration  10: 58,692 ms/op
+
+
+Result "vladislav.problems.benchmark.BenchmarkStreamLoopsVsLoops.loopIterator":
+  58,395 ±(99.9%) 0,241 ms/op [Average]
+  (min, avg, max) = (57,816, 58,395, 59,127), stdev = 0,278
+  CI (99.9%): [58,154, 58,636] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.5, OpenJDK 64-Bit Server VM, 11.0.5+10-post-Ubuntu-0ubuntu1.118.04
+# VM invoker: /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 1000 ms each
+# Measurement: 10 iterations, 1000 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: vladislav.problems.benchmark.BenchmarkStreamLoopsVsLoops.loopParallelStream
+# Parameters: (N = 10000000)
+
+# Run progress: 75,00% complete, ETA 00:01:37
+# Fork: 1 of 2
+# Warmup Iteration   1: 129,144 ms/op
+# Warmup Iteration   2: 122,692 ms/op
+# Warmup Iteration   3: 123,214 ms/op
+# Warmup Iteration   4: 123,477 ms/op
+# Warmup Iteration   5: 123,907 ms/op
+Iteration   1: 124,106 ms/op
+Iteration   2: 123,724 ms/op
+Iteration   3: 122,426 ms/op
+Iteration   4: 122,619 ms/op
+Iteration   5: 120,649 ms/op
+Iteration   6: 118,439 ms/op
+Iteration   7: 118,164 ms/op
+Iteration   8: 117,997 ms/op
+Iteration   9: 118,248 ms/op
+Iteration  10: 118,850 ms/op
+
+# Run progress: 79,17% complete, ETA 00:01:21
+# Fork: 2 of 2
+# Warmup Iteration   1: 129,286 ms/op
+# Warmup Iteration   2: 123,612 ms/op
+# Warmup Iteration   3: 123,830 ms/op
+# Warmup Iteration   4: 122,516 ms/op
+# Warmup Iteration   5: 123,306 ms/op
+Iteration   1: 122,675 ms/op
+Iteration   2: 122,964 ms/op
+Iteration   3: 122,744 ms/op
+Iteration   4: 123,341 ms/op
+Iteration   5: 119,577 ms/op
+Iteration   6: 115,179 ms/op
+Iteration   7: 114,893 ms/op
+Iteration   8: 114,732 ms/op
+Iteration   9: 114,733 ms/op
+Iteration  10: 115,151 ms/op
+
+
+Result "vladislav.problems.benchmark.BenchmarkStreamLoopsVsLoops.loopParallelStream":
+  119,561 ±(99.9%) 2,937 ms/op [Average]
+  (min, avg, max) = (114,732, 119,561, 124,106), stdev = 3,383
+  CI (99.9%): [116,623, 122,498] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.5, OpenJDK 64-Bit Server VM, 11.0.5+10-post-Ubuntu-0ubuntu1.118.04
+# VM invoker: /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 1000 ms each
+# Measurement: 10 iterations, 1000 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: vladislav.problems.benchmark.BenchmarkStreamLoopsVsLoops.loopStream
+# Parameters: (N = 10000000)
+
+# Run progress: 83,33% complete, ETA 00:01:05
+# Fork: 1 of 2
+# Warmup Iteration   1: 35,845 ms/op
+# Warmup Iteration   2: 35,511 ms/op
+# Warmup Iteration   3: 35,435 ms/op
+# Warmup Iteration   4: 35,476 ms/op
+# Warmup Iteration   5: 35,392 ms/op
+Iteration   1: 35,709 ms/op
+Iteration   2: 35,519 ms/op
+Iteration   3: 35,471 ms/op
+Iteration   4: 35,517 ms/op
+Iteration   5: 35,622 ms/op
+Iteration   6: 35,454 ms/op
+Iteration   7: 35,393 ms/op
+Iteration   8: 35,643 ms/op
+Iteration   9: 35,375 ms/op
+Iteration  10: 35,506 ms/op
+
+# Run progress: 87,50% complete, ETA 00:00:48
+# Fork: 2 of 2
+# Warmup Iteration   1: 35,895 ms/op
+# Warmup Iteration   2: 35,676 ms/op
+# Warmup Iteration   3: 35,441 ms/op
+# Warmup Iteration   4: 35,408 ms/op
+# Warmup Iteration   5: 35,532 ms/op
+Iteration   1: 35,459 ms/op
+Iteration   2: 35,631 ms/op
+Iteration   3: 35,506 ms/op
+Iteration   4: 35,315 ms/op
+Iteration   5: 35,350 ms/op
+Iteration   6: 35,439 ms/op
+Iteration   7: 35,418 ms/op
+Iteration   8: 35,595 ms/op
+Iteration   9: 35,433 ms/op
+Iteration  10: 35,493 ms/op
+
+
+Result "vladislav.problems.benchmark.BenchmarkStreamLoopsVsLoops.loopStream":
+  35,492 ±(99.9%) 0,091 ms/op [Average]
+  (min, avg, max) = (35,315, 35,492, 35,709), stdev = 0,105
+  CI (99.9%): [35,401, 35,583] (assumes normal distribution)
+
+
+# JMH version: 1.21
+# VM version: JDK 11.0.5, OpenJDK 64-Bit Server VM, 11.0.5+10-post-Ubuntu-0ubuntu1.118.04
+# VM invoker: /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+# VM options: -Xms2G -Xmx2G
+# Warmup: 5 iterations, 1000 ms each
+# Measurement: 10 iterations, 1000 ms each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: vladislav.problems.benchmark.BenchmarkStreamLoopsVsLoops.loopWhile
+# Parameters: (N = 10000000)
+
+# Run progress: 91,67% complete, ETA 00:00:32
+# Fork: 1 of 2
+# Warmup Iteration   1: 56,437 ms/op
+# Warmup Iteration   2: 56,435 ms/op
+# Warmup Iteration   3: 56,106 ms/op
+# Warmup Iteration   4: 56,072 ms/op
+# Warmup Iteration   5: 56,163 ms/op
+Iteration   1: 55,910 ms/op
+Iteration   2: 55,845 ms/op
+Iteration   3: 56,032 ms/op
+Iteration   4: 56,158 ms/op
+Iteration   5: 55,966 ms/op
+Iteration   6: 55,993 ms/op
+Iteration   7: 56,526 ms/op
+Iteration   8: 56,300 ms/op
+Iteration   9: 56,066 ms/op
+Iteration  10: 56,027 ms/op
+
+# Run progress: 95,83% complete, ETA 00:00:16
+# Fork: 2 of 2
+# Warmup Iteration   1: 55,117 ms/op
+# Warmup Iteration   2: 54,961 ms/op
+# Warmup Iteration   3: 55,390 ms/op
+# Warmup Iteration   4: 55,109 ms/op
+# Warmup Iteration   5: 55,204 ms/op
+Iteration   1: 55,006 ms/op
+Iteration   2: 55,191 ms/op
+Iteration   3: 55,138 ms/op
+Iteration   4: 55,154 ms/op
+Iteration   5: 54,996 ms/op
+Iteration   6: 54,938 ms/op
+Iteration   7: 55,059 ms/op
+Iteration   8: 55,017 ms/op
+Iteration   9: 55,196 ms/op
+Iteration  10: 55,233 ms/op
+
+
+Result "vladislav.problems.benchmark.BenchmarkStreamLoopsVsLoops.loopWhile":
+  55,588 ±(99.9%) 0,461 ms/op [Average]
+  (min, avg, max) = (54,938, 55,588, 56,526), stdev = 0,531
+  CI (99.9%): [55,127, 56,048] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:06:30
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                            (N)   Mode  Cnt    Score    Error   Units
+BenchmarkStreamLoopsVsLoops.loopFor             10000000  thrpt   20    0,018 ±  0,001  ops/ms
+BenchmarkStreamLoopsVsLoops.loopForEach         10000000  thrpt   20    0,017 ±  0,001  ops/ms
+BenchmarkStreamLoopsVsLoops.loopIterator        10000000  thrpt   20    0,017 ±  0,001  ops/ms
+BenchmarkStreamLoopsVsLoops.loopParallelStream  10000000  thrpt   20    0,009 ±  0,001  ops/ms
+BenchmarkStreamLoopsVsLoops.loopStream          10000000  thrpt   20    0,028 ±  0,001  ops/ms
+BenchmarkStreamLoopsVsLoops.loopWhile           10000000  thrpt   20    0,018 ±  0,001  ops/ms
+BenchmarkStreamLoopsVsLoops.loopFor             10000000   avgt   20   55,238 ±  0,259   ms/op
+BenchmarkStreamLoopsVsLoops.loopForEach         10000000   avgt   20   58,285 ±  0,253   ms/op
+BenchmarkStreamLoopsVsLoops.loopIterator        10000000   avgt   20   58,395 ±  0,241   ms/op
+BenchmarkStreamLoopsVsLoops.loopParallelStream  10000000   avgt   20  119,561 ±  2,937   ms/op
+BenchmarkStreamLoopsVsLoops.loopStream          10000000   avgt   20   35,492 ±  0,091   ms/op
+BenchmarkStreamLoopsVsLoops.loopWhile           10000000   avgt   20   55,588 ±  0,461   ms/op
